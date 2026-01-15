@@ -12,28 +12,28 @@ const projects = [
     id: 2,
     title: "PixelCraft Studio",
     category: "UI/UX Design",
-    image: "/images/project-1.jpg",
+    image: "/images/project-2.png",
     size: "large" as const
   },
   {
     id: 3,
     title: "FlowSpace App",
     category: "Mobile Design",
-    image: "/images/project-1.jpg",
+    image: "/images/project-3.png",
     size: "small" as const
   },
   {
     id: 4,
     title: "BrandSync",
     category: "Brand Identity",
-    image: "/images/project-1.jpg",
+    image: "/images/project-4.png",
     size: "small" as const
   },
   {
     id: 5,
     title: "EcoConnect",
     category: "Sustainability",
-    image: "/images/project-1.jpg",
+    image: "/images/project-5.png",
     size: "small" as const
   }
 ];
