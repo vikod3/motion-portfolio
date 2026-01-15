@@ -45,7 +45,7 @@ export const TestimonialsSection = () => {
   };
 
   return (
-    <div className="bg-card border border-border rounded-lg p-6 relative">
+    <div className="liquid-glass rounded-3xl p-6 relative">
       <div className="flex items-center space-x-4 mb-6">
         <img 
           src={testimonials[currentIndex].avatar} 
@@ -54,7 +54,7 @@ export const TestimonialsSection = () => {
         />
         <div>
           <h4 className="text-lg font-semibold text-foreground">{testimonials[currentIndex].name}</h4>
-          <p className="text-sm text-primary">{testimonials[currentIndex].title}, {testimonials[currentIndex].company}</p>
+          <p className="text-sm text-foreground/60">{testimonials[currentIndex].title}, {testimonials[currentIndex].company}</p>
         </div>
       </div>
       
@@ -66,7 +66,7 @@ export const TestimonialsSection = () => {
       <div className="flex space-x-2">
         <button
           onClick={previousTestimonial}
-          className="w-9 h-9 bg-muted border border-border rounded-full flex items-center justify-center hover:bg-accent transition-colors"
+          className="w-9 h-9 liquid-glass-inner rounded-full flex items-center justify-center hover:bg-foreground/10 transition-colors"
           aria-label="Previous testimonial"
         >
           <ChevronLeft className="w-4 h-4 text-foreground" />
@@ -74,7 +74,7 @@ export const TestimonialsSection = () => {
         
         <button
           onClick={nextTestimonial}
-          className="w-9 h-9 bg-muted border border-border rounded-full flex items-center justify-center hover:bg-accent transition-colors"
+          className="w-9 h-9 liquid-glass-inner rounded-full flex items-center justify-center hover:bg-foreground/10 transition-colors"
           aria-label="Next testimonial"
         >
           <ChevronRight className="w-4 h-4 text-foreground" />

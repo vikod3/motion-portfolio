@@ -5,35 +5,35 @@ const projects = [
     id: 1,
     title: "NovaTech Platform",
     category: "Web Development",
-    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=500&h=400&fit=crop",
+    image: "/images/project-1.jpg",
     size: "large" as const
   },
   {
     id: 2,
     title: "PixelCraft Studio",
     category: "UI/UX Design",
-    image: "https://images.unsplash.com/photo-1551434678-e076c223a692?w=500&h=400&fit=crop",
+    image: "/images/project-1.jpg",
     size: "large" as const
   },
   {
     id: 3,
     title: "FlowSpace App",
     category: "Mobile Design",
-    image: "https://images.unsplash.com/photo-1542744094-24638eff58bb?w=400&h=300&fit=crop",
+    image: "/images/project-1.jpg",
     size: "small" as const
   },
   {
     id: 4,
     title: "BrandSync",
     category: "Brand Identity",
-    image: "https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?w=400&h=300&fit=crop",
+    image: "/images/project-1.jpg",
     size: "small" as const
   },
   {
     id: 5,
     title: "EcoConnect",
     category: "Sustainability",
-    image: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=400&h=300&fit=crop",
+    image: "/images/project-1.jpg",
     size: "small" as const
   }
 ];
