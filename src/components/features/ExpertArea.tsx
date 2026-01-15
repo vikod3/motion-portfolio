@@ -24,7 +24,7 @@ export const ExpertArea = () => {
               key={index}
               className="liquid-glass-inner rounded-3xl p-4 flex flex-col items-center justify-center h-24 transition-all duration-300 group hover:scale-[1.02]"
             >
-              <IconComponent className="w-8 h-8 text-white group-hover:text-primary mb-4 group-hover:scale-110 transition-all duration-300" />
+              <IconComponent className="w-8 h-8 text-foreground group-hover:text-foreground mb-4 group-hover:scale-110 transition-all duration-300" />
               <span className="text-lg font-semibold text-foreground text-center">
                 {tool.name}
               </span>

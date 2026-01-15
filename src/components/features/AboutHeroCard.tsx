@@ -71,15 +71,15 @@ export const AboutHeroCard = () => {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <Button 
                 variant="outline" 
-                className="w-full bg-primary/5 border-primary/20 text-primary hover:bg-primary/10 uppercase text-xs font-medium tracking-wide"
+                className="w-full bg-foreground/10 border-foreground/20 text-foreground hover:bg-foreground/20 uppercase text-xs font-medium tracking-wide"
               >
-                <div className="w-3 h-3 bg-primary/70 rounded-full mr-2" />
+                <div className="w-3 h-3 bg-foreground/70 rounded-full mr-2" />
                 Book a Call
               </Button>
               
               <Button 
                 variant="outline"
-                className="w-full bg-background/20 border-border/20 text-foreground/70 hover:bg-background/30 uppercase text-xs font-medium tracking-wide"
+                className="w-full bg-foreground/5 border-foreground/15 text-foreground hover:bg-foreground/15 uppercase text-xs font-medium tracking-wide"
               >
                 Get in Touch
               </Button>
