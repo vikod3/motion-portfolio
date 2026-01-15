@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 
 export const WorkTogetherCard = () => {
   return (
-    <div className="bg-black/80 rounded-3xl shadow-[0px_4px_30px_0px_rgba(0,0,0,0.10)] backdrop-blur-md p-6 h-full flex flex-col items-center justify-center text-center">
+    <div className="liquid-glass liquid-glass-hover rounded-3xl p-6 h-full flex flex-col items-center justify-center text-center">
       <h3 className="text-xl font-semibold text-foreground mb-8">
         Let's Work Together
       </h3>

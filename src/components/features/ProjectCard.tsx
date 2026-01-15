@@ -9,7 +9,7 @@ interface ProjectCardProps {
 
 export const ProjectCard = ({ title, category, image, size = "small" }: ProjectCardProps) => {
   return (
-    <div className={`bg-black/80 rounded-3xl shadow-[0px_4px_30px_0px_rgba(0,0,0,0.10)] backdrop-blur-md p-5 transition-colors hover:bg-accent/30 group ${
+    <div className={`liquid-glass liquid-glass-hover rounded-3xl p-5 group ${
       size === "large" ? "lg:col-span-1" : ""
     }`}>
       {/* Header */}
