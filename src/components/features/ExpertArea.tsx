@@ -1,11 +1,11 @@
-import { Figma, Code2, Globe, Palette, PenTool, Layout } from "lucide-react";
+import { Figma, Code2, Globe, Palette, Heart, Layout } from "lucide-react";
 
 const expertTools = [
   { name: "Figma", icon: Figma },
   { name: "Framer", icon: Code2 },
   { name: "Behance", icon: Globe },
   { name: "Dribbble", icon: Palette },
-  { name: "Lovable", icon: PenTool },
+  { name: "Lovable", icon: Heart },
   { name: "Adobe XD", icon: Layout }
 ];
 
