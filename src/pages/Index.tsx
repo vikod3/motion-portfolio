@@ -2,14 +2,14 @@ import { HeroSection } from "@/components/features/HeroSection"
 import { ProjectsSection } from "@/components/features/ProjectsSection"
 import { TestimonialsWorkSection } from "@/components/features/TestimonialsWorkSection"
 import { SocialsSection } from "@/components/features/SocialsSection"
-import { UnicornStudioBackground } from "@/components/features/UnicornStudioBackground"
+import { VideoBackground } from "@/components/features/VideoBackground"
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-background relative">
-      {/* Fixed Background Animation */}
-      <UnicornStudioBackground 
-        projectId="k7d0mgUzrVnNVEhr0aK3"
+      {/* Fixed Video Background */}
+      <VideoBackground 
+        src="/videos/background.mp4"
         className="fixed inset-0 w-full h-full"
       />
       
