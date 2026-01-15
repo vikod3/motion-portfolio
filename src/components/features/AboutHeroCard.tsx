@@ -22,7 +22,7 @@ const experienceData = [
 export const AboutHeroCard = () => {
   return (
     <section className="w-full max-w-7xl mx-auto px-4 py-4">
-      <Card className="bg-card border border-border p-5 lg:p-8">
+      <Card className="liquid-glass rounded-3xl p-5 lg:p-8 border-0">
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-12">
         {/* Image Section */}
         <div className="flex justify-center lg:justify-start">

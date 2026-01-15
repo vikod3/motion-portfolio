@@ -11,7 +11,7 @@ const skills = [
 
 export const DescriptionCard = () => {
   return (
-    <div className="bg-black/80 rounded-3xl shadow-[0px_4px_30px_0px_rgba(0,0,0,0.10)] backdrop-blur-md p-5 flex flex-col h-full">
+    <div className="liquid-glass rounded-3xl p-5 flex flex-col h-full">
       {/* Description */}
       <div className="flex-1 mb-8">
         <p className="text-muted-foreground leading-relaxed text-base">

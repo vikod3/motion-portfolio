@@ -4,7 +4,7 @@ import profileImage from "@/assets/profile-image.png";
 
 export const ProfileCard = () => {
   return (
-    <div className="bg-black/80 rounded-3xl shadow-[0px_4px_30px_0px_rgba(0,0,0,0.10)] backdrop-blur-md p-5 h-full flex flex-col">
+    <div className="liquid-glass rounded-3xl p-5 h-full flex flex-col">
       {/* Profile Image */}
       <div className="w-[100px] h-[100px] mb-5 overflow-hidden">
         <img 

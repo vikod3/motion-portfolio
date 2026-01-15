@@ -3,7 +3,7 @@ import { MapPin, Phone } from "lucide-react";
 
 export const ContactInfoCard = () => {
   return (
-    <Card className="bg-black/80 rounded-3xl shadow-[0px_4px_30px_0px_rgba(0,0,0,0.10)] backdrop-blur-md p-5 lg:p-8 h-full flex flex-col">
+    <Card className="liquid-glass rounded-3xl p-5 lg:p-8 h-full flex flex-col border-0">
       {/* Contact Info Header */}
       <div className="mb-8 flex-shrink-0">
         <h2 className="text-2xl font-semibold text-foreground mb-6">

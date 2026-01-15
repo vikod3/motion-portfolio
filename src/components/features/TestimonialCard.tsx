@@ -8,7 +8,7 @@ interface TestimonialCardProps {
 
 export const TestimonialCard = ({ name, title, company, quote, avatar }: TestimonialCardProps) => {
   return (
-    <div className="bg-black/80 rounded-3xl shadow-[0px_4px_30px_0px_rgba(0,0,0,0.10)] backdrop-blur-md p-6">
+    <div className="liquid-glass rounded-3xl p-6">
       <div className="flex items-center space-x-4 mb-6">
         <img 
           src={avatar} 

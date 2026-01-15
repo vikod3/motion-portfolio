@@ -11,7 +11,7 @@ const expertTools = [
 
 export const ExpertArea = () => {
   return (
-    <div className="bg-black/80 rounded-3xl shadow-[0px_4px_30px_0px_rgba(0,0,0,0.10)] backdrop-blur-md p-5">
+    <div className="liquid-glass rounded-3xl p-5">
       <h2 className="text-2xl font-semibold text-foreground mb-8">
         Tools & Technologies
       </h2>
@@ -22,7 +22,7 @@ export const ExpertArea = () => {
           return (
             <div 
               key={index}
-              className="bg-black/80 rounded-3xl shadow-[0px_4px_30px_0px_rgba(0,0,0,0.10)] backdrop-blur-md p-4 flex flex-col items-center justify-center h-24 hover:bg-accent/50 hover:shadow-lg hover:shadow-primary/20 transition-all duration-300 group"
+              className="liquid-glass-inner rounded-3xl p-4 flex flex-col items-center justify-center h-24 transition-all duration-300 group hover:scale-[1.02]"
             >
               <IconComponent className="w-8 h-8 text-white group-hover:text-primary mb-4 group-hover:scale-110 transition-all duration-300" />
               <span className="text-lg font-semibold text-foreground text-center">
