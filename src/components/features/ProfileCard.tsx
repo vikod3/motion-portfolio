@@ -29,7 +29,7 @@ export const ProfileCard = () => {
         <Button 
           variant="outline" 
           size="sm" 
-          className="flex-1 bg-primary/5 border-primary/10 text-primary hover:bg-primary/10 uppercase text-xs font-medium py-3"
+          className="flex-1 bg-foreground/10 border-foreground/20 text-foreground hover:bg-foreground/20 uppercase text-xs font-medium py-3"
         >
           <Phone className="w-3.5 h-3.5 mr-2" />
           Book a call
@@ -37,7 +37,7 @@ export const ProfileCard = () => {
         <Button 
           variant="outline" 
           size="sm" 
-          className="flex-1 uppercase text-xs font-medium py-3"
+          className="flex-1 bg-foreground/5 border-foreground/15 text-foreground hover:bg-foreground/15 uppercase text-xs font-medium py-3"
         >
           <Mail className="w-3.5 h-3.5 mr-2" />
           Get in touch

@@ -50,7 +50,7 @@ export const ServicesAwardsSection = () => {
                   className="liquid-glass-inner rounded-2xl p-4 flex flex-col items-center justify-center text-center space-y-3 transition-all duration-300 group h-28 border-0 hover:scale-[1.02]"
                 >
                   <div className="w-10 h-10 flex items-center justify-center">
-                    <Icon className="w-8 h-8 text-foreground group-hover:text-primary group-hover:scale-110 transition-all duration-300" />
+                    <Icon className="w-8 h-8 text-foreground group-hover:text-foreground group-hover:scale-110 transition-all duration-300" />
                   </div>
                   <h3 className="text-foreground/50 font-semibold text-sm lg:text-base">
                     {service.name}
@@ -76,8 +76,8 @@ export const ServicesAwardsSection = () => {
                     className="liquid-glass-inner rounded-2xl p-4 transition-all duration-300 group flex-shrink-0 border-0 hover:scale-[1.02]"
                   >
                     <div className="flex items-center space-x-4">
-                      <div className="w-10 h-10 flex items-center justify-center bg-background/30 rounded">
-                        <AwardIcon className="w-6 h-6 text-foreground group-hover:text-primary group-hover:scale-110 transition-all duration-300" />
+                      <div className="w-10 h-10 flex items-center justify-center bg-foreground/5 rounded">
+                        <AwardIcon className="w-6 h-6 text-foreground group-hover:text-foreground group-hover:scale-110 transition-all duration-300" />
                       </div>
                       <div className="flex-1 min-w-0">
                         <h3 className="text-foreground/70 font-semibold text-lg truncate">
@@ -101,8 +101,8 @@ export const ServicesAwardsSection = () => {
                     className="liquid-glass-inner rounded-2xl p-4 transition-all duration-300 group flex-shrink-0 border-0 hover:scale-[1.02]"
                   >
                     <div className="flex items-center space-x-4">
-                      <div className="w-10 h-10 flex items-center justify-center bg-background/30 rounded">
-                        <AwardIcon className="w-6 h-6 text-foreground group-hover:text-primary group-hover:scale-110 transition-all duration-300" />
+                      <div className="w-10 h-10 flex items-center justify-center bg-foreground/5 rounded">
+                        <AwardIcon className="w-6 h-6 text-foreground group-hover:text-foreground group-hover:scale-110 transition-all duration-300" />
                       </div>
                       <div className="flex-1 min-w-0">
                         <h3 className="text-foreground/70 font-semibold text-lg truncate">
@@ -126,8 +126,8 @@ export const ServicesAwardsSection = () => {
                     className="liquid-glass-inner rounded-2xl p-4 transition-all duration-300 group flex-shrink-0 border-0 hover:scale-[1.02]"
                   >
                     <div className="flex items-center space-x-4">
-                      <div className="w-10 h-10 flex items-center justify-center bg-background/30 rounded">
-                        <AwardIcon className="w-6 h-6 text-foreground group-hover:text-primary group-hover:scale-110 transition-all duration-300" />
+                      <div className="w-10 h-10 flex items-center justify-center bg-foreground/5 rounded">
+                        <AwardIcon className="w-6 h-6 text-foreground group-hover:text-foreground group-hover:scale-110 transition-all duration-300" />
                       </div>
                       <div className="flex-1 min-w-0">
                         <h3 className="text-foreground/70 font-semibold text-lg truncate">

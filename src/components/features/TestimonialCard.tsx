@@ -17,7 +17,7 @@ export const TestimonialCard = ({ name, title, company, quote, avatar }: Testimo
         />
         <div>
           <h4 className="text-lg font-semibold text-foreground">{name}</h4>
-          <p className="text-sm text-primary">{title}, {company}</p>
+          <p className="text-sm text-foreground/60">{title}, {company}</p>
         </div>
       </div>
       
