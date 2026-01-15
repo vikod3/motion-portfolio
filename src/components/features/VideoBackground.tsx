@@ -5,13 +5,16 @@ interface VideoBackgroundProps {
 
 export const VideoBackground = ({ src, className = "" }: VideoBackgroundProps) => {
   return (
-    <div className={`absolute inset-0 overflow-hidden ${className}`} style={{ zIndex: 0 }}>
+    <div 
+      className={`fixed top-0 left-0 w-screen h-screen overflow-hidden ${className}`} 
+      style={{ zIndex: 0 }}
+    >
       <video
         autoPlay
         loop
         muted
         playsInline
-        className="absolute inset-0 w-full h-full object-cover"
+        className="w-full h-full object-cover"
       >
         <source src={src} type="video/mp4" />
       </video>
