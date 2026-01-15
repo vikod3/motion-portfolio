@@ -5,7 +5,7 @@ const expertTools = [
   { name: "Framer", icon: Code2 },
   { name: "Behance", icon: Globe },
   { name: "Dribbble", icon: Palette },
-  { name: "Sketch", icon: PenTool },
+  { name: "Lovable", icon: PenTool },
   { name: "Adobe XD", icon: Layout }
 ];
 
